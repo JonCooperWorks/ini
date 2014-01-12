@@ -60,4 +60,4 @@ if __name__ == '__main__':
             print('Syntax Error on line {0}: {1}'.format(e.num, e.line))
 
         except IOError as e:
-            print('IOError: {1}'.format(e))
+            print('IOError: {0}'.format(e))
